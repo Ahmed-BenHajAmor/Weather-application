@@ -1,0 +1,18 @@
+.form{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 5px;
+    
+}
+
+.form input{
+    padding: 1em;
+    border-radius: 20px;
+    color: rgb(112, 112, 112);
+}
+
+.btn{
+    width: 41.66px;
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.cloud{
+    display: flex;
+    justify-content: center;
+}
+.cloud img{
+    width: 6em;
+    height: auto;
+}

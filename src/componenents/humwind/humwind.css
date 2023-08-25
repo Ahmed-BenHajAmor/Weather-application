@@ -1,0 +1,23 @@
+.humwind{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.each{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.each p{
+    width: fit-content;
+}
+
+.each img{
+    width: 30px;
+    height: auto;
+    margin: 5px 5px 0 0;
+}
