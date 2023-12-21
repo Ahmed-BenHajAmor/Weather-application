@@ -4,8 +4,8 @@ import './humwind.css'
 function humwind({hum, wind}) {
   return (
     <div className='humwind'>
-      <Each img='/src/Assets/humidity.png' data={`${hum} %`} text='humidity'/>
-      <Each img='/src/Assets/wind.png' data={`${wind} km/h`} text='wind'/>
+      <Each img='/static/Assets/humidity.png' data={`${hum} %`} text='humidity'/>
+      <Each img='/static/Assets/wind.png' data={`${wind} km/h`} text='wind'/>
     </div>
   )
 }

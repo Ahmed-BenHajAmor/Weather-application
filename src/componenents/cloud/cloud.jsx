@@ -3,7 +3,7 @@ import './cloud.css'
 
 
 const getImg = (cloud)=>{
-  const main = '/src/Assets/'
+  const main = '/static/Assets/'
   switch (cloud){
     case 'Clear':
       return main + 'clear.png'
